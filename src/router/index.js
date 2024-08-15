@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import AccordionHome  from '@/views/Accordion/AccodionHome.vue'
+import HomeView from '@/views/HomeView.vue'
+import AccordionHome  from '@/views/Tutorials/AccordionHome.vue'
+import Contact from "@/views/Tutorials/Contact.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,7 +14,12 @@ const router = createRouter({
     {
       path: '/accordion',
       component: AccordionHome
-    }
+    },
+    {
+      path: '/contact-us',
+      component: Contact
+    },
+
   ]
 })
 

@@ -1,5 +1,6 @@
 <script setup>
 import { onMounted } from 'vue';
+import Navbar from "@/components/Navbar.vue";
 
 onMounted(() => {
   const accordion = document.getElementsByClassName('contentBx');
@@ -14,6 +15,7 @@ onMounted(() => {
 
 <template>
 <div class="body">
+  <Navbar />
   <h2>My Accordion</h2>
 
   <div class="accordion">
