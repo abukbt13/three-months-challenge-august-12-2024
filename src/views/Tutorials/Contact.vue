@@ -4,7 +4,8 @@ import Navbar from "@/components/Navbar.vue";
 </script>
 
 <template>
-  <Navbar />
+   <Navbar />
+
   <div class="contents">
 
     <div class="d-flex flex-column">

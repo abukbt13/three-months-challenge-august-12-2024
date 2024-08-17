@@ -14,8 +14,9 @@ onMounted(() => {
 </script>
 
 <template>
-<div class="body">
+
   <Navbar />
+<div class="body">
   <h2>My Accordion</h2>
 
   <div class="accordion">
@@ -50,7 +51,7 @@ onMounted(() => {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background: #bedfe8;
+  //background: #bedfe8;
 }
 .accordion{
   width: 800px
