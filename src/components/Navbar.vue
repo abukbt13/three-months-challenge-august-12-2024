@@ -26,6 +26,18 @@
         </router-link>
       </li>
 
+      <li class="border px-2" style="font-size: 2rem;text-decoration: none;">
+        <router-link style="text-decoration: none;" to="/dropdown">
+          DropDown
+        </router-link>
+      </li>
+
+      <li class="border px-2" style="font-size: 2rem;text-decoration: none;">
+        <router-link style="text-decoration: none;" to="/list-app">
+          searc/listApp
+        </router-link>
+      </li>
+
     </ol>
   <hr class="">
 </template>
