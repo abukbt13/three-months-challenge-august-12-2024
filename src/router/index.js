@@ -5,6 +5,7 @@ import Contact from "@/views/Tutorials/Contact.vue";
 import LandingPage from "@/views/Tutorials/LandingPage.vue";
 import ListApp from "@/views/Tutorials/ListApp.vue";
 import CssDropdown from "@/views/Tutorials/CssDropdown.vue";
+import Grid from "@/views/Tutorials/Grid.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,9 +30,14 @@ const router = createRouter({
     {
       path: '/list-app',
       component: ListApp
-    },{
+    },
+    {
       path: '/dropdown',
       component: CssDropdown
+    },
+    {
+      path: '/grid',
+      component: Grid
     },
 
   ]

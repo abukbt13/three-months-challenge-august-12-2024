@@ -28,27 +28,13 @@ import Navbar from "@/components/Navbar.vue";
                 <div class="">
                   <h2>Address</h2>
                   <p>
-                    hmawfbehfhghvhghvgh
+                    aztiketsales44@gmail.com
                   </p>
                 </div>
               </div>
 
             </div>
 
-            <div class="address ms-2 d-flex">
-              <div style="border-radius: 50%;background: white; width: 2rem;height: 2rem;" class="icon-link">
-                <i class="bi bi-heart-fill"></i>
-              </div>
-              <div class="icon-link d-flex flex-column">
-               <div class="">
-                 <h2>Email</h2>
-                 <p>
-                   vbj
-                 </p>
-               </div>
-              </div>
-
-            </div>
 
             <div class="address ms-2 d-flex">
               <div style="border-radius: 50%;background: white; width: 2rem;height: 2rem;" class="icon-link">
@@ -58,7 +44,8 @@ import Navbar from "@/components/Navbar.vue";
                <div class="">
                  <h2>Phone</h2>
                  <p>
-kkjn                 </p>
+                   0728548760
+                 </p>
                </div>
               </div>
 
