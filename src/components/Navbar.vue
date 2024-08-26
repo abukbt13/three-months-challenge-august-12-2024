@@ -3,54 +3,41 @@
 </script>
 
 <template>
-  <div class="d-flex p-3 justify-content-center align-items-center">
-    <h4 style="" class="text-uppercase">MY three Months Coding Challenge <i style="color: red;margin-left: 2rem;" class="bi bi-heart-fill"></i> </h4>
-
-  </div>
-    <ol class="d-flex list-unstyled justify-content-center">
-      <li class="border px-2 mx-1 " style="font-size: 2rem;text-decoration: none;">
-        <router-link style="text-decoration: none;" to="accordion">
-          Accordion
+    <ol class="nav-list">
+      <li class="border" style="text-decoration: none;">
+        <router-link style="text-decoration: none;" to="/">
+          <i class="bi  bi-house-fill">Week-1</i>
+        </router-link>
+      </li> <li class="border" style="text-decoration: none;">
+        <router-link style="text-decoration: none;" to="/week-2">
+          <i class="bi  bi-house-fill">Week-2</i>
+        </router-link>
+      </li> <li class="border" style="text-decoration: none;">
+        <router-link style="text-decoration: none;" to="/week-3">
+          <i class="bi  bi-house-fill">Week-3</i>
         </router-link>
       </li>
-
-      <li class="border px-2" style="font-size: 2rem;text-decoration: none;">
-        <router-link style="text-decoration: none;" to="/contact-us">
-          Contact Us
-        </router-link>
-      </li>
-
-      <li class="border px-2" style="font-size: 2rem;text-decoration: none;">
-        <router-link style="text-decoration: none;" to="/landing-page">
-          Landing Page
-        </router-link>
-      </li>
-
-      <li class="border px-2" style="font-size: 2rem;text-decoration: none;">
-        <router-link style="text-decoration: none;" to="/dropdown">
-          DropDown
-        </router-link>
-      </li>
-
-      <li class="border px-2" style="font-size: 2rem;text-decoration: none;">
-        <router-link style="text-decoration: none;" to="/list-app">
-          search/listApp
-        </router-link>
-      </li>
-      <li class="border px-2" style="font-size: 2rem;text-decoration: none;">
-        <router-link style="text-decoration: none;" to="/grid">
-          Grid
-        </router-link>
-      </li>
-
     </ol>
-  <hr class="">
 </template>
 
-<style scoped>
+<style>
+.nav-list{
+  border: 1px solid green;
+  padding: 4px;
+  display: flex;
+  list-style: none;
+  gap: 7px;
+  width: 100vw;
+  //overflow: scroll;
+}
+.nav-list ol li{
+  flex-grow: 1;
+  flex-basis: 0;
+  width: 100vw;
+  padding: 3rem;
+}
 li:hover{
   background: red;
-  font-size: 12px;
   color: white;
 }
 </style>

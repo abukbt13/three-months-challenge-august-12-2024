@@ -72,7 +72,7 @@ import Navbar from "@/components/Navbar.vue";
   outline: none;
   width: 100px;
 }
-ol {
+.box ol {
   position: relative;
   width: 100%;
   padding: 10px 20px 20px 40px;
@@ -84,7 +84,7 @@ ol {
   box-shadow: 15px 15px 15px rgb(22,34,45);
   overflow: scroll;
 }
-ol li{
+.box ol li{
   height: 50px;
 }
 
